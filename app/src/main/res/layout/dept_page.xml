@@ -169,9 +169,7 @@
         app:layout_constraintEnd_toEndOf="@+id/name"
         app:layout_constraintTop_toTopOf="@+id/name" />
 
-    <!--TODO:  ضيف زر للحذف سطر محدد و نافذة تاكيد للحذف تحتوي خيار نعم و خيار لا-->
-    <!--TODO : add button to save the data -->
-    <!--TODO:  add button to load the data  -->
+
     <!--TODO:  add search option to filter the data    -->
 
     <Button

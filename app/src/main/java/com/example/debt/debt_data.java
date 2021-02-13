@@ -2,6 +2,7 @@ package com.example.debt;
 
 public class debt_data {
 
+    private	int	id;
     private String name;
     private double amount;
     private String note;
@@ -10,6 +11,21 @@ public class debt_data {
         this.name = name;
         this.amount = amount;
         this.note = note;
+    }
+
+    public debt_data(int id, String name, double amount, String note) {
+        this.id = id;
+        this.name = name;
+        this.amount = amount;
+        this.note = note;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {

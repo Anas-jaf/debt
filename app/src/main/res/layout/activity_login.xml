@@ -38,7 +38,7 @@
         android:background="@color/white"/>
 
 
-    <!--TODO  : connect the button with credentials-->
+
 
     <Button
         android:layout_marginTop="30dp"

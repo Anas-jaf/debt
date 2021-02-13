@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import java.util.List;
 
-public class dataList_adapter extends ArrayAdapter<debt_data> {
+public class ListView_adapter extends ArrayAdapter<debt_data> {
 
     private int resourceLayout;
     private Context mContext;
@@ -20,7 +20,7 @@ public class dataList_adapter extends ArrayAdapter<debt_data> {
 
 
 
-    public dataList_adapter(Context context, int resource, List<debt_data> items) {
+    public ListView_adapter(Context context, int resource, List<debt_data> items) {
         super(context, resource, items);
         this.resourceLayout = resource;
         this.mContext = context;
